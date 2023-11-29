@@ -48,9 +48,11 @@ body {
   cursor: pointer;
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #315659;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-style: solid;
+  border-width: 4px;
 }
 
 .dropdown-two {
@@ -58,12 +60,27 @@ body {
   display: none;
   position: absolute;
   left: 160px;
-  top: 0px;
   min-width: 160px;
-  background-color: #f9f9f9;
+  background-color: #315659;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-style: solid;
+  border-width: 4px;
 }
-
+#drop_down_one{
+    top: 42px;
+}
+#drop_down_two{
+    top: 84px;
+}
+#drop_down_three{
+    top: 144px;
+}
+#drop_down_four{
+    top: 187px;
+}
+#drop_down_five{
+    top: 230px;
+}   
 .dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
   display: block;
 }

@@ -110,6 +110,10 @@ body {
     width: 3vw;
     height: 5vh;
 }
+
+.dItem{
+    text-decoration: none;
+}
 /* Footer under here */
 .container_footer {
     display: flex;
@@ -141,7 +145,7 @@ body {
 }
 
 .logo_Footer{
-    width: 7vw;
+    width: 9vw;
     height: 7vh;
 }
 /* Goed_doelG under here */

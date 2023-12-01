@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background: #2978A0;
+    font-family: 'poppins',sans-serif !important;
+}
+
+/* hieronder nav bar content */
+.navbar {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: #315659;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    margin: auto;
+    padding: auto;
+}
+
+.dropdown {
+    float: left;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: auto;
+}
+
+.dropdownmain a:hover, .dropdown:hover .dropbtn {
+    background-color: #315659;
+}
+
+.dropdown-one {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  background-color: #315659;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-style: solid;
+  border-width: 4px;
+}
+
+.dropdown-two {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  left: 160px;
+  min-width: 160px;
+  background-color: #315659;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-style: solid;
+  border-width: 4px;
+}
+
+#drop_down_one{
+    top: 42px;
+}
+
+#drop_down_two{
+    top: 84px;
+}
+
+#drop_down_three{
+    top: 144px;
+}
+
+#drop_down_four{
+    top: 187px;
+}
+
+#drop_down_five{
+    top: 230px;
+}   
+
+.dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
+  display: block;
+}
+
+.dropdown-one .dItem {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-one .dItem:hover, .dropdown-two a:hover {
+    background-color: #ddd;
+}
+.logo_TCR{
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    margin: 0%;
+}
+.page_name{
+    display: flex;
+    font-weight: bolder;
+}
+.img_burger_nav{
+    margin: 2;
+    width: 3vw;
+    height: 5vh;
+}
+
+.dItem{
+    text-decoration: none;
+}
+/* Footer under here */
+.container_footer {
+    display: flex;
+    background-color: #C6E0FF;
+    padding: 15px;
+    font-size: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-1{
+    flex-grow: 1;
+    margin-right: 440px;
+}
+
+.item-2{
+    flex-grow: 1;
+    margin-left: 19px;
+
+}
+
+.item-3{
+    flex-grow: 1;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+.logo_Footer{
+    width: 9vw;
+    height: 7vh;
+}
+/* Goed_doelG under here */
+/* test 2*/

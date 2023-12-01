@@ -66,21 +66,27 @@ body {
   border-style: solid;
   border-width: 4px;
 }
+
 #drop_down_one{
     top: 42px;
 }
+
 #drop_down_two{
     top: 84px;
 }
+
 #drop_down_three{
     top: 144px;
 }
+
 #drop_down_four{
     top: 187px;
 }
+
 #drop_down_five{
     top: 230px;
 }   
+
 .dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
   display: block;
 }
